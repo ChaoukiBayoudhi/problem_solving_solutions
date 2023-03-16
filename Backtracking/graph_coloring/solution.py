@@ -15,7 +15,8 @@ class GraphColoring_backtracking:
                     self.graph[i][j]=input('Enter the weight between node %s and node%s '%(i+1,j+1))
                     self.graph[j][i]=self.graph[i][j]
         else:
-            for i in range(self.n):
+
+for i in range(self.n):
                 for j in range(self.n):
                     self.graph[i][j]=input('Enter the weight between node %s and node%s '%(i+1,j+1))
                     
